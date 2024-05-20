@@ -1,0 +1,23 @@
+body{
+    background-color:wheat;
+    text-decoration: solid;
+    color: darkorchid;
+}
+h1,p{
+    text-align: center;
+}
+.base-cells{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 700px;   
+    border: 2px solid darkorchid;
+    border-color: black;
+    margin: 0 auto;   
+}
+.cells{
+    width: calc((100% / 10) - 4px);
+    height: calc((100% / 10) - 4px);
+    border: 2px solid darkorchid;
+    border-color: black;
+}
