@@ -6,7 +6,7 @@ body{
 h1,p{
     text-align: center;
 }
-.base-cells{
+#base-cells{
     display: flex;
     flex-wrap: wrap;
     width: 700px;
